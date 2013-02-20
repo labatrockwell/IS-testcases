@@ -1,0 +1,1 @@
+var BASEPATH = "http://localhost:31337/static/";
