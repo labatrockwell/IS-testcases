@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<activity>
+    <name>com.rockwell.lib.message.bridge</name>
+    <description>
+    </description>
+    <version>1.0.0</version>
+    <identifyingName>com.rockwell.lib.message.bridge</identifyingName>
+</activity>

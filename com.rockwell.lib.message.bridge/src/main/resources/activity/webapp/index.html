@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Fullscreen Test</title>
+		<script data-main="js/load.js" src="js/require-2.1.4.js"></script>
+	</head>
+	<body>
+		<div id="txt1">
+			Waiting for connection to I.S. backend. Make sure the static server is running (check javascript console if nothing happens)
+		</div>
+		<table>
+			<tr>
+				<td>
+					output1:<div id="o:output1"></div>
+				</td>
+				<td>
+					&lt;- these should match ->
+				</td>
+				<td>
+					input1:<div id="i:input1"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					output2:<div id="o:output2"></div>
+				</td>
+				<td>
+					&lt;- these should NOT match ->
+				</td>
+				<td>
+					input2:<div id="i:input2"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					output3:<div id="o:output3"></div>
+				</td>
+				<td>
+					&lt;- these should NOT match ->
+				</td>
+				<td>
+					input3:<div id="i:input3"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					routeA:<div id="o:routeA"></div>
+				</td>
+				<td>
+					&lt;- these should NOT match ->
+				</td>
+				<td>
+					routeA:<div id="i:routeA"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					routeB:<div id="o:routeB"></div>
+				</td>
+				<td>
+					&lt;- these should NOT match ->
+				</td>
+				<td>
+					routeB:<div id="i:routeB"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					routeC:<div id="o:routeC"></div>
+				</td>
+				<td>
+					&lt;- these should match ->
+				</td>
+				<td>
+					routeD:<div id="i:routeD"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					routeD:<div id="o:routeD"></div>
+				</td>
+				<td>
+					&lt;- these should NOT match ->
+				</td>
+				<td>
+					routeC:<div id="i:routeC"></div>
+				</td>
+			</tr>
+		<div id="txt3">
+			configs:
+			<div id="txtConfigs">
+			</div>
+		</div>
+	</body>
+</html>

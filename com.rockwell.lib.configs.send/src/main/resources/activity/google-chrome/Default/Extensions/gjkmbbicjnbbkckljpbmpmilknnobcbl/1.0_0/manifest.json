@@ -1,0 +1,14 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "jq.js", "main.js" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   } ],
+   "description": "Pretty self explanatory.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCs2AMA3zVHz1hTfamFB/4lSW7wFqNSXBR5+n6Km/KLk6+M4rLYT1xoFVVw1yw4xh3CoRJ0PtblK+VaW7LQhSgjXwpB6xXvc5/QS9PdVRb0EQ8zc1SpqQc2phDPqAaZuoR9QSyPTEntxg80f4jjzOuCKgz5Zl3kh6S1QuwQsnfvQQIDAQAB",
+   "name": "Fullscreen Always and Forever",
+   "permissions": [ "tabs" ],
+   "version": "1.0"
+}
